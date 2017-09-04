@@ -37,24 +37,24 @@
                 </controller>
             </objects>
         </scene>
-        <!--MapInterface-->
+        <!--MapStoryboard-->
         <scene sceneID="EON-Ts-CWP">
             <objects>
-                <controllerPlaceholder referencedIdentifier="MapInterface" id="PTP-iu-gJ5"/>
+                <controllerPlaceholder referencedIdentifier="MapStoryboard" id="PTP-iu-gJ5"/>
             </objects>
             <point key="canvasLocation" x="316" y="-194"/>
         </scene>
-        <!--VideoInterface-->
+        <!--VideoStoryboard-->
         <scene sceneID="jbY-1g-1IN">
             <objects>
-                <controllerPlaceholder referencedIdentifier="VideoInterface" id="bMk-At-yBh"/>
+                <controllerPlaceholder referencedIdentifier="VideoStoryboard" id="bMk-At-yBh"/>
             </objects>
             <point key="canvasLocation" x="373" y="122"/>
         </scene>
-        <!--DadosInterface-->
+        <!--DataStoryboard-->
         <scene sceneID="QBY-D2-oji">
             <objects>
-                <controllerPlaceholder referencedIdentifier="DadosInterface" id="wy9-05-Cyh"/>
+                <controllerPlaceholder referencedIdentifier="DataStoryboard" id="wy9-05-Cyh"/>
             </objects>
             <point key="canvasLocation" x="34" y="326"/>
         </scene>

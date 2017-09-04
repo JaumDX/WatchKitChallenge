@@ -19,9 +19,9 @@
 		75179D251F5DEDA200F771EE /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75179D241F5DEDA200F771EE /* InterfaceController.swift */; };
 		75179D271F5DEDA200F771EE /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75179D261F5DEDA200F771EE /* ExtensionDelegate.swift */; };
 		75179D291F5DEDA200F771EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75179D281F5DEDA200F771EE /* Assets.xcassets */; };
-		75179D391F5DEE2B00F771EE /* MapInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75179D381F5DEE2B00F771EE /* MapInterface.storyboard */; };
-		75179D3B1F5DEE3C00F771EE /* VideoInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75179D3A1F5DEE3C00F771EE /* VideoInterface.storyboard */; };
-		75179D3D1F5DEE4900F771EE /* DadosInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75179D3C1F5DEE4900F771EE /* DadosInterface.storyboard */; };
+		75179D3F1F5DF24200F771EE /* MapStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75179D3E1F5DF24200F771EE /* MapStoryboard.storyboard */; };
+		75179D411F5DF24C00F771EE /* VideoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75179D401F5DF24C00F771EE /* VideoStoryboard.storyboard */; };
+		75179D431F5DF25600F771EE /* DataStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75179D421F5DF25600F771EE /* DataStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,9 +83,9 @@
 		75179D261F5DEDA200F771EE /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		75179D281F5DEDA200F771EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75179D2A1F5DEDA200F771EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		75179D381F5DEE2B00F771EE /* MapInterface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MapInterface.storyboard; sourceTree = "<group>"; };
-		75179D3A1F5DEE3C00F771EE /* VideoInterface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VideoInterface.storyboard; sourceTree = "<group>"; };
-		75179D3C1F5DEE4900F771EE /* DadosInterface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DadosInterface.storyboard; sourceTree = "<group>"; };
+		75179D3E1F5DF24200F771EE /* MapStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MapStoryboard.storyboard; sourceTree = "<group>"; };
+		75179D401F5DF24C00F771EE /* VideoStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VideoStoryboard.storyboard; sourceTree = "<group>"; };
+		75179D421F5DF25600F771EE /* DataStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DataStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,11 +143,11 @@
 			isa = PBXGroup;
 			children = (
 				75179D151F5DEDA100F771EE /* Interface.storyboard */,
-				75179D381F5DEE2B00F771EE /* MapInterface.storyboard */,
-				75179D3A1F5DEE3C00F771EE /* VideoInterface.storyboard */,
-				75179D3C1F5DEE4900F771EE /* DadosInterface.storyboard */,
 				75179D181F5DEDA100F771EE /* Assets.xcassets */,
 				75179D1A1F5DEDA100F771EE /* Info.plist */,
+				75179D3E1F5DF24200F771EE /* MapStoryboard.storyboard */,
+				75179D401F5DF24C00F771EE /* VideoStoryboard.storyboard */,
+				75179D421F5DF25600F771EE /* DataStoryboard.storyboard */,
 			);
 			path = "WatchKitApp WatchKit App";
 			sourceTree = "<group>";
@@ -278,11 +278,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75179D3B1F5DEE3C00F771EE /* VideoInterface.storyboard in Resources */,
-				75179D3D1F5DEE4900F771EE /* DadosInterface.storyboard in Resources */,
+				75179D3F1F5DF24200F771EE /* MapStoryboard.storyboard in Resources */,
+				75179D411F5DF24C00F771EE /* VideoStoryboard.storyboard in Resources */,
 				75179D191F5DEDA100F771EE /* Assets.xcassets in Resources */,
-				75179D391F5DEE2B00F771EE /* MapInterface.storyboard in Resources */,
 				75179D171F5DEDA100F771EE /* Interface.storyboard in Resources */,
+				75179D431F5DF25600F771EE /* DataStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,6 +562,7 @@
 				75179D2F1F5DEDA200F771EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75179D311F5DEDA200F771EE /* Build configuration list for PBXNativeTarget "WatchKitApp WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -570,6 +571,7 @@
 				75179D331F5DEDA200F771EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75179D351F5DEDA200F771EE /* Build configuration list for PBXNativeTarget "WatchKitApp" */ = {
 			isa = XCConfigurationList;
@@ -578,6 +580,7 @@
 				75179D371F5DEDA200F771EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
