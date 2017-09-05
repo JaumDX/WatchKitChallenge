@@ -24,6 +24,7 @@
 		75179D3F1F5DF24200F771EE /* MapStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75179D3E1F5DF24200F771EE /* MapStoryboard.storyboard */; };
 		75179D411F5DF24C00F771EE /* VideoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75179D401F5DF24C00F771EE /* VideoStoryboard.storyboard */; };
 		75179D431F5DF25600F771EE /* DataStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75179D421F5DF25600F771EE /* DataStoryboard.storyboard */; };
+		75F572EB1F5F13FF00C9558C /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F572EA1F5F13FF00C9558C /* MapController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		75179D3E1F5DF24200F771EE /* MapStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MapStoryboard.storyboard; sourceTree = "<group>"; };
 		75179D401F5DF24C00F771EE /* VideoStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VideoStoryboard.storyboard; sourceTree = "<group>"; };
 		75179D421F5DF25600F771EE /* DataStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DataStoryboard.storyboard; sourceTree = "<group>"; };
+		75F572EA1F5F13FF00C9558C /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 				75179D261F5DEDA200F771EE /* ExtensionDelegate.swift */,
 				75179D281F5DEDA200F771EE /* Assets.xcassets */,
 				75179D2A1F5DEDA200F771EE /* Info.plist */,
+				75F572EA1F5F13FF00C9558C /* MapController.swift */,
 			);
 			path = "WatchKitApp WatchKit Extension";
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75179D271F5DEDA200F771EE /* ExtensionDelegate.swift in Sources */,
+				75F572EB1F5F13FF00C9558C /* MapController.swift in Sources */,
 				75179D251F5DEDA200F771EE /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
