@@ -10,6 +10,13 @@
     </dependencies>
     <scenes>
         <!--Interface Controller-->
+        <scene sceneID="3Eo-Kp-bFb">
+            <objects>
+                <controller id="erE-hB-yrV"/>
+            </objects>
+            <point key="canvasLocation" x="147" y="-420"/>
+        </scene>
+        <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchKitApp_WatchKit_App" customModuleProvider="target">
@@ -18,17 +25,17 @@
                             <items>
                                 <button width="1" alignment="left" title="Mapa" id="dT8-Ya-IJg">
                                     <connections>
-                                        <segue destination="PTP-iu-gJ5" kind="push" id="Rah-hE-R8A"/>
+                                        <segue destination="erE-hB-yrV" kind="push" id="hb7-Yh-s6w"/>
                                     </connections>
                                 </button>
                                 <button width="1" alignment="left" title="Video" id="WBs-Kz-Q43">
                                     <connections>
-                                        <segue destination="bMk-At-yBh" kind="push" id="nCF-LA-E6d"/>
+                                        <segue destination="9EH-7A-g1Y" kind="push" id="QqB-eG-aZ3"/>
                                     </connections>
                                 </button>
                                 <button width="1" alignment="left" title="Dados" id="pN6-FP-0CF">
                                     <connections>
-                                        <segue destination="wy9-05-Cyh" kind="push" id="9Gn-if-gYj"/>
+                                        <segue destination="g4u-57-szn" kind="push" id="cyT-ex-2NA"/>
                                     </connections>
                                 </button>
                             </items>
@@ -37,26 +44,19 @@
                 </controller>
             </objects>
         </scene>
-        <!--MapStoryboard-->
-        <scene sceneID="EON-Ts-CWP">
+        <!--Interface Controller-->
+        <scene sceneID="CSD-y1-B3N">
             <objects>
-                <controllerPlaceholder referencedIdentifier="MapStoryboard" id="PTP-iu-gJ5"/>
+                <controller id="9EH-7A-g1Y"/>
             </objects>
-            <point key="canvasLocation" x="316" y="-194"/>
+            <point key="canvasLocation" x="487" y="37"/>
         </scene>
-        <!--VideoStoryboard-->
-        <scene sceneID="jbY-1g-1IN">
+        <!--Interface Controller-->
+        <scene sceneID="C7l-EU-Bkq">
             <objects>
-                <controllerPlaceholder referencedIdentifier="VideoStoryboard" id="bMk-At-yBh"/>
+                <controller id="g4u-57-szn"/>
             </objects>
-            <point key="canvasLocation" x="373" y="122"/>
-        </scene>
-        <!--DataStoryboard-->
-        <scene sceneID="QBY-D2-oji">
-            <objects>
-                <controllerPlaceholder referencedIdentifier="DataStoryboard" id="wy9-05-Cyh"/>
-            </objects>
-            <point key="canvasLocation" x="34" y="326"/>
+            <point key="canvasLocation" x="34" y="444"/>
         </scene>
     </scenes>
 </document>
