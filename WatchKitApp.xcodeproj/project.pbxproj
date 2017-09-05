@@ -23,8 +23,10 @@
 		75179D291F5DEDA200F771EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75179D281F5DEDA200F771EE /* Assets.xcassets */; };
 		75179D3F1F5DF24200F771EE /* MapStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75179D3E1F5DF24200F771EE /* MapStoryboard.storyboard */; };
 		75179D411F5DF24C00F771EE /* VideoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75179D401F5DF24C00F771EE /* VideoStoryboard.storyboard */; };
-		75179D431F5DF25600F771EE /* DataStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75179D421F5DF25600F771EE /* DataStoryboard.storyboard */; };
 		75F572EB1F5F13FF00C9558C /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F572EA1F5F13FF00C9558C /* MapController.swift */; };
+		75F572EF1F5F3D5F00C9558C /* DataStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F572EE1F5F3D5F00C9558C /* DataStoryboard.storyboard */; };
+		75F572F31F5F3D9700C9558C /* DataInterfaceInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F572F11F5F3D9700C9558C /* DataInterfaceInterfaceController.swift */; };
+		75F572F41F5F3D9700C9558C /* NextData2InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F572F21F5F3D9700C9558C /* NextData2InterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,8 +92,10 @@
 		75179D2A1F5DEDA200F771EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75179D3E1F5DF24200F771EE /* MapStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MapStoryboard.storyboard; sourceTree = "<group>"; };
 		75179D401F5DF24C00F771EE /* VideoStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VideoStoryboard.storyboard; sourceTree = "<group>"; };
-		75179D421F5DF25600F771EE /* DataStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DataStoryboard.storyboard; sourceTree = "<group>"; };
 		75F572EA1F5F13FF00C9558C /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		75F572EE1F5F3D5F00C9558C /* DataStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DataStoryboard.storyboard; sourceTree = "<group>"; };
+		75F572F11F5F3D9700C9558C /* DataInterfaceInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataInterfaceInterfaceController.swift; sourceTree = "<group>"; };
+		75F572F21F5F3D9700C9558C /* NextData2InterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextData2InterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,12 +161,12 @@
 		75179D141F5DEDA100F771EE /* WatchKitApp WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				75F572EE1F5F3D5F00C9558C /* DataStoryboard.storyboard */,
 				75179D151F5DEDA100F771EE /* Interface.storyboard */,
 				75179D181F5DEDA100F771EE /* Assets.xcassets */,
 				75179D1A1F5DEDA100F771EE /* Info.plist */,
 				75179D3E1F5DF24200F771EE /* MapStoryboard.storyboard */,
 				75179D401F5DF24C00F771EE /* VideoStoryboard.storyboard */,
-				75179D421F5DF25600F771EE /* DataStoryboard.storyboard */,
 			);
 			path = "WatchKitApp WatchKit App";
 			sourceTree = "<group>";
@@ -170,6 +174,7 @@
 		75179D231F5DEDA200F771EE /* WatchKitApp WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				75F572F01F5F3D8500C9558C /* Data */,
 				1490FF891F5F15AE00CF517B /* Video */,
 				75179D241F5DEDA200F771EE /* InterfaceController.swift */,
 				75179D261F5DEDA200F771EE /* ExtensionDelegate.swift */,
@@ -178,6 +183,15 @@
 				75F572EA1F5F13FF00C9558C /* MapController.swift */,
 			);
 			path = "WatchKitApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		75F572F01F5F3D8500C9558C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				75F572F11F5F3D9700C9558C /* DataInterfaceInterfaceController.swift */,
+				75F572F21F5F3D9700C9558C /* NextData2InterfaceController.swift */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,7 +313,7 @@
 				75179D411F5DF24C00F771EE /* VideoStoryboard.storyboard in Resources */,
 				75179D191F5DEDA100F771EE /* Assets.xcassets in Resources */,
 				75179D171F5DEDA100F771EE /* Interface.storyboard in Resources */,
-				75179D431F5DF25600F771EE /* DataStoryboard.storyboard in Resources */,
+				75F572EF1F5F3D5F00C9558C /* DataStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,8 +343,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				75179D271F5DEDA200F771EE /* ExtensionDelegate.swift in Sources */,
+				75F572F41F5F3D9700C9558C /* NextData2InterfaceController.swift in Sources */,
 				75F572EB1F5F13FF00C9558C /* MapController.swift in Sources */,
 				75179D251F5DEDA200F771EE /* InterfaceController.swift in Sources */,
+				75F572F31F5F3D9700C9558C /* DataInterfaceInterfaceController.swift in Sources */,
 				1490FF8B1F5F15EE00CF517B /* InterfaceVideo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
