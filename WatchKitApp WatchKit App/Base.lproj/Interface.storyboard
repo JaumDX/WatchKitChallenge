@@ -28,7 +28,7 @@
                                 </button>
                                 <button width="1" alignment="left" title="Dados" id="pN6-FP-0CF">
                                     <connections>
-                                        <segue destination="d7s-kZ-GOX" kind="push" id="TRS-gK-sSU"/>
+                                        <segue destination="d7s-kZ-GOX" kind="push" id="Fmh-A3-i3e"/>
                                     </connections>
                                 </button>
                             </items>
@@ -56,7 +56,7 @@
             <objects>
                 <controllerPlaceholder referencedIdentifier="DataStoryboard" id="d7s-kZ-GOX"/>
             </objects>
-            <point key="canvasLocation" x="34" y="408"/>
+            <point key="canvasLocation" x="338" y="307"/>
         </scene>
     </scenes>
 </document>
