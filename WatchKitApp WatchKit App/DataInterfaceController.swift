@@ -9,9 +9,10 @@
 import Foundation
 import WatchKit
 
-class DataInterfaceConroller: WKInterfaceController {
+class DataInterfaceController: WKInterfaceController {
     
     @IBOutlet var labelPresent: WKInterfaceLabel!
+    
     var dateString: String = "Year: 0"
     
     override func willActivate() {
@@ -20,7 +21,7 @@ class DataInterfaceConroller: WKInterfaceController {
     }
     @IBAction func goToNextDataInterface() {
         //pushController
-        self.presentController(withName: "segueNextDataInterfaceController", context: dateString)
+        self.presentController(withName: "NextDateInterfaceController", context: dateString)
 
     }
     @IBAction func dateSliderAction(_ value: Float) {

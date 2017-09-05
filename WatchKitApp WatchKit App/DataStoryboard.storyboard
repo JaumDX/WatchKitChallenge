@@ -12,7 +12,7 @@
         <!--DataStoryboard-->
         <scene sceneID="hsS-OX-Vf0">
             <objects>
-                <controller identifier="DataStoryboard" id="LdX-Vo-s13" customClass="DataInterfaceConroller" customModule="WatchKitApp">
+                <controller identifier="DataStoryboard" id="LdX-Vo-s13" customClass="DataInterfaceController" customModule="WatchKitApp">
                     <items>
                         <slider width="1" alignment="left" value="1" maximum="20" steps="20" id="W36-V7-LcP">
                             <connections>
@@ -34,10 +34,10 @@
             </objects>
             <point key="canvasLocation" x="104" y="-198"/>
         </scene>
-        <!--Next Date Interface Controller-->
+        <!--nextDataStoryboard-->
         <scene sceneID="WvY-m3-6Lt">
             <objects>
-                <controller id="zme-6O-VWq" customClass="NextDateInterfaceController" customModule="WatchKitApp">
+                <controller identifier="nextDataStoryboard" id="zme-6O-VWq" customClass="NextDateInterfaceController" customModule="WatchKitApp">
                     <items>
                         <slider width="1" alignment="left" value="1" maximum="20" steps="20" id="wLZ-fv-Nqj">
                             <connections>
@@ -48,7 +48,6 @@
                         <button width="134" height="48" alignment="left" title="Button" id="vW3-YV-WrL">
                             <connections>
                                 <action selector="segueDataInterfaceController" destination="zme-6O-VWq" id="Jc5-OB-vyp"/>
-                                <segue destination="LdX-Vo-s13" kind="push" identifier="segueDataInterfaceController" id="ecL-vR-iPD"/>
                             </connections>
                         </button>
                     </items>
