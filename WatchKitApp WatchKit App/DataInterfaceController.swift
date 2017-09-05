@@ -12,8 +12,20 @@ import WatchKit
 class DataInterfaceConroller: WKInterfaceController {
     
     @IBOutlet var slider: WKInterfaceSlider!
+    @IBOutlet var labelPresent: WKInterfaceLabel!
+    var dateString: String = "Year: 0"
     
+    override func willActivate() {
+        super.willActivate()
+        labelPresent.setText(dateString)
+    }
     @IBAction func goToNextDataInterface() {
-        
+        //pushController
+        self.presentController(withName: "segueNextDataInterfaceController", context: dateString)
+
+    }
+    @IBAction func dateSliderAction(_ value: Float) {
+        dateString = "Year: \(value)"
+        labelPresent.setText(dateString)
     }
 }
