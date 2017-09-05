@@ -12,7 +12,11 @@
         <!--MapStoryboard-->
         <scene sceneID="2U8-8O-B0p">
             <objects>
-                <controller identifier="MapStoryboard" id="JFz-fn-LGg"/>
+                <controller identifier="MapStoryboard" id="JFz-fn-LGg" customClass="MapController" customModule="WatchKitApp_WatchKit_Extension">
+                    <items>
+                        <map height="149" alignment="left" id="A45-94-95G"/>
+                    </items>
+                </controller>
             </objects>
             <point key="canvasLocation" x="0.0" y="52"/>
         </scene>
