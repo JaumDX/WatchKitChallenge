@@ -14,8 +14,11 @@
             <objects>
                 <controller identifier="MapStoryboard" id="JFz-fn-LGg" customClass="MapController" customModule="WatchKitApp_WatchKit_Extension">
                     <items>
-                        <map height="149" alignment="left" id="A45-94-95G"/>
+                        <map width="1" height="1" alignment="left" id="A45-94-95G"/>
                     </items>
+                    <connections>
+                        <outlet property="myMap" destination="A45-94-95G" id="ZPJ-5G-4ES"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="0.0" y="52"/>
