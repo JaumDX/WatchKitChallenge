@@ -12,23 +12,22 @@
         <!--DataStoryboard-->
         <scene sceneID="hsS-OX-Vf0">
             <objects>
-                <controller identifier="DataStoryboard" id="LdX-Vo-s13" customClass="DataInterfaceController" customModule="WatchKitApp">
+                <controller identifier="DataStoryboard" id="LdX-Vo-s13" customClass="DataInterfaceInterfaceController" customModule="WatchKitApp_WatchKit_Extension">
                     <items>
                         <slider width="1" alignment="left" value="1" maximum="20" steps="20" id="W36-V7-LcP">
                             <connections>
-                                <action selector="dateSliderAction:" destination="LdX-Vo-s13" id="K7r-N5-Gv9"/>
+                                <action selector="sliderNumber:" destination="LdX-Vo-s13" id="cFJ-bC-P0m"/>
                             </connections>
                         </slider>
                         <label width="136" height="53" alignment="left" text="Label" textAlignment="center" id="CRD-P3-ef1"/>
                         <button width="1" alignment="left" title="Button" id="uTQ-Jc-sjF">
                             <connections>
-                                <action selector="goToNextDataInterface" destination="LdX-Vo-s13" id="CGX-vg-9JJ"/>
-                                <segue destination="zme-6O-VWq" kind="push" identifier="segueNextDataInterfaceController" id="gni-9v-tbL"/>
+                                <segue destination="zme-6O-VWq" kind="push" identifier="SegueNextDateInterfaceController" id="mx0-6P-1li"/>
                             </connections>
                         </button>
                     </items>
                     <connections>
-                        <outlet property="labelPresent" destination="CRD-P3-ef1" id="nfE-af-Hln"/>
+                        <outlet property="labelDate" destination="CRD-P3-ef1" id="rMN-hf-SVI"/>
                     </connections>
                 </controller>
             </objects>
@@ -37,26 +36,23 @@
         <!--nextDataStoryboard-->
         <scene sceneID="WvY-m3-6Lt">
             <objects>
-                <controller identifier="nextDataStoryboard" id="zme-6O-VWq" customClass="NextDateInterfaceController" customModule="WatchKitApp">
+                <controller identifier="nextDataStoryboard" id="zme-6O-VWq" customClass="NextData2InterfaceController" customModule="WatchKitApp_WatchKit_Extension">
                     <items>
                         <slider width="1" alignment="left" value="1" maximum="20" steps="20" id="wLZ-fv-Nqj">
                             <connections>
-                                <action selector="sliderDay:" destination="zme-6O-VWq" id="Re3-bS-iLt"/>
+                                <action selector="sliderDay:" destination="zme-6O-VWq" id="OMh-l0-Kzl"/>
                             </connections>
                         </slider>
-                        <label width="135" height="54" alignment="left" text="Label" textAlignment="center" id="KcV-wS-xeY"/>
-                        <button width="134" height="48" alignment="left" title="Button" id="vW3-YV-WrL">
-                            <connections>
-                                <action selector="segueDataInterfaceController" destination="zme-6O-VWq" id="Jc5-OB-vyp"/>
-                            </connections>
-                        </button>
+                        <label width="135" height="106" alignment="left" text="Label" textAlignment="center" id="KcV-wS-xeY">
+                            <fontDescription key="font" type="system" pointSize="10"/>
+                        </label>
                     </items>
                     <connections>
-                        <outlet property="labelDateDay" destination="KcV-wS-xeY" id="Hpl-E5-8uu"/>
+                        <outlet property="dayLabel" destination="KcV-wS-xeY" id="2Nj-p5-Skc"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="418" y="-500"/>
+            <point key="canvasLocation" x="418" y="-499"/>
         </scene>
     </scenes>
 </document>

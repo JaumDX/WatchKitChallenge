@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32C89A471F5EE44D00DC0E63 /* DataInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C89A461F5EE44D00DC0E63 /* DataInterfaceController.swift */; };
-		32C89A491F5EE45E00DC0E63 /* NextDataInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C89A481F5EE45E00DC0E63 /* NextDataInterfaceController.swift */; };
+		32C89A4E1F5F2C4300DC0E63 /* DataInterfaceInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C89A4D1F5F2C4300DC0E63 /* DataInterfaceInterfaceController.swift */; };
+		32C89A501F5F310000DC0E63 /* NextData2InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C89A4F1F5F310000DC0E63 /* NextData2InterfaceController.swift */; };
 		75179D021F5DEDA100F771EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75179D011F5DEDA100F771EE /* AppDelegate.swift */; };
 		75179D041F5DEDA100F771EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75179D031F5DEDA100F771EE /* ViewController.swift */; };
 		75179D071F5DEDA100F771EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75179D051F5DEDA100F771EE /* Main.storyboard */; };
@@ -70,8 +70,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		32C89A461F5EE44D00DC0E63 /* DataInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataInterfaceController.swift; sourceTree = "<group>"; };
-		32C89A481F5EE45E00DC0E63 /* NextDataInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextDataInterfaceController.swift; sourceTree = "<group>"; };
+		32C89A4D1F5F2C4300DC0E63 /* DataInterfaceInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataInterfaceInterfaceController.swift; sourceTree = "<group>"; };
+		32C89A4F1F5F310000DC0E63 /* NextData2InterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextData2InterfaceController.swift; sourceTree = "<group>"; };
 		75179CFE1F5DEDA100F771EE /* WatchKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75179D011F5DEDA100F771EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75179D031F5DEDA100F771EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,8 +115,8 @@
 		32C89A4A1F5EE46C00DC0E63 /* DataStoryboard controllers */ = {
 			isa = PBXGroup;
 			children = (
-				32C89A461F5EE44D00DC0E63 /* DataInterfaceController.swift */,
-				32C89A481F5EE45E00DC0E63 /* NextDataInterfaceController.swift */,
+				32C89A4D1F5F2C4300DC0E63 /* DataInterfaceInterfaceController.swift */,
+				32C89A4F1F5F310000DC0E63 /* NextData2InterfaceController.swift */,
 			);
 			name = "DataStoryboard controllers";
 			path = "../WatchKitApp WatchKit App";
@@ -322,8 +322,6 @@
 			files = (
 				75179D041F5DEDA100F771EE /* ViewController.swift in Sources */,
 				75179D021F5DEDA100F771EE /* AppDelegate.swift in Sources */,
-				32C89A491F5EE45E00DC0E63 /* NextDataInterfaceController.swift in Sources */,
-				32C89A471F5EE44D00DC0E63 /* DataInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +329,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32C89A501F5F310000DC0E63 /* NextData2InterfaceController.swift in Sources */,
 				75179D271F5DEDA200F771EE /* ExtensionDelegate.swift in Sources */,
+				32C89A4E1F5F2C4300DC0E63 /* DataInterfaceInterfaceController.swift in Sources */,
 				75F572EB1F5F13FF00C9558C /* MapController.swift in Sources */,
 				75179D251F5DEDA200F771EE /* InterfaceController.swift in Sources */,
 			);
