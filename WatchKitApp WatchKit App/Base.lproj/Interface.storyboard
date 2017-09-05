@@ -28,8 +28,7 @@
                                 </button>
                                 <button width="1" alignment="left" title="Dados" id="pN6-FP-0CF">
                                     <connections>
-                                        <action selector="dadosButton" destination="AgC-eL-Hgc" id="dfQ-nW-0F0"/>
-                                        <segue destination="wy9-05-Cyh" kind="push" identifier="segueDataStoryboard" id="9Gn-if-gYj"/>
+                                        <segue destination="d7s-kZ-GOX" kind="push" id="TRS-gK-sSU"/>
                                     </connections>
                                 </button>
                             </items>

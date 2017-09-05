@@ -9,10 +9,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="12029"/>
     </dependencies>
     <scenes>
-        <!--Data Interface Conroller-->
+        <!--DataStoryboard-->
         <scene sceneID="hsS-OX-Vf0">
             <objects>
-                <controller id="LdX-Vo-s13" customClass="DataInterfaceConroller" customModule="WatchKitApp">
+                <controller identifier="DataStoryboard" id="LdX-Vo-s13" customClass="DataInterfaceConroller" customModule="WatchKitApp">
                     <items>
                         <slider width="1" alignment="left" value="1" maximum="20" steps="20" id="W36-V7-LcP">
                             <connections>
@@ -29,7 +29,6 @@
                     </items>
                     <connections>
                         <outlet property="labelPresent" destination="CRD-P3-ef1" id="nfE-af-Hln"/>
-                        <outlet property="slider" destination="W36-V7-LcP" id="RnV-SV-QcZ"/>
                     </connections>
                 </controller>
             </objects>

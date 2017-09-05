@@ -28,9 +28,4 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
-    @IBAction func dadosButton() {
-        self.presentController(withName: "segueNextDataInterfaceController", context: nil)
-        
-    }
-
 }

@@ -11,7 +11,6 @@ import WatchKit
 
 class DataInterfaceConroller: WKInterfaceController {
     
-    @IBOutlet var slider: WKInterfaceSlider!
     @IBOutlet var labelPresent: WKInterfaceLabel!
     var dateString: String = "Year: 0"
     
