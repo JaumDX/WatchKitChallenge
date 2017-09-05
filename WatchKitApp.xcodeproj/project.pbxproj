@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		1490FF8B1F5F15EE00CF517B /* InterfaceVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1490FF8A1F5F15EE00CF517B /* InterfaceVideo.swift */; };
 		1490FF8D1F5F15FF00CF517B /* movieclip.mov in Resources */ = {isa = PBXBuildFile; fileRef = 1490FF8C1F5F15FF00CF517B /* movieclip.mov */; };
+=======
+		32C89A4E1F5F2C4300DC0E63 /* DataInterfaceInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C89A4D1F5F2C4300DC0E63 /* DataInterfaceInterfaceController.swift */; };
+		32C89A501F5F310000DC0E63 /* NextData2InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C89A4F1F5F310000DC0E63 /* NextData2InterfaceController.swift */; };
+>>>>>>> KreviFeature
 		75179D021F5DEDA100F771EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75179D011F5DEDA100F771EE /* AppDelegate.swift */; };
 		75179D041F5DEDA100F771EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75179D031F5DEDA100F771EE /* ViewController.swift */; };
 		75179D071F5DEDA100F771EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75179D051F5DEDA100F771EE /* Main.storyboard */; };
@@ -70,8 +75,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		1490FF8A1F5F15EE00CF517B /* InterfaceVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceVideo.swift; sourceTree = "<group>"; };
 		1490FF8C1F5F15FF00CF517B /* movieclip.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = movieclip.mov; sourceTree = "<group>"; };
+=======
+		32C89A4D1F5F2C4300DC0E63 /* DataInterfaceInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataInterfaceInterfaceController.swift; sourceTree = "<group>"; };
+		32C89A4F1F5F310000DC0E63 /* NextData2InterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextData2InterfaceController.swift; sourceTree = "<group>"; };
+>>>>>>> KreviFeature
 		75179CFE1F5DEDA100F771EE /* WatchKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75179D011F5DEDA100F771EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75179D031F5DEDA100F771EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +122,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		1490FF891F5F15AE00CF517B /* Video */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +130,16 @@
 				1490FF8A1F5F15EE00CF517B /* InterfaceVideo.swift */,
 			);
 			name = Video;
+=======
+		32C89A4A1F5EE46C00DC0E63 /* DataStoryboard controllers */ = {
+			isa = PBXGroup;
+			children = (
+				32C89A4D1F5F2C4300DC0E63 /* DataInterfaceInterfaceController.swift */,
+				32C89A4F1F5F310000DC0E63 /* NextData2InterfaceController.swift */,
+			);
+			name = "DataStoryboard controllers";
+			path = "../WatchKitApp WatchKit App";
+>>>>>>> KreviFeature
 			sourceTree = "<group>";
 		};
 		75179CF51F5DEDA100F771EE = {
@@ -170,7 +191,11 @@
 		75179D231F5DEDA200F771EE /* WatchKitApp WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				1490FF891F5F15AE00CF517B /* Video */,
+=======
+				32C89A4A1F5EE46C00DC0E63 /* DataStoryboard controllers */,
+>>>>>>> KreviFeature
 				75179D241F5DEDA200F771EE /* InterfaceController.swift */,
 				75179D261F5DEDA200F771EE /* ExtensionDelegate.swift */,
 				75179D281F5DEDA200F771EE /* Assets.xcassets */,
@@ -248,6 +273,7 @@
 				TargetAttributes = {
 					75179CFD1F5DEDA100F771EE = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 69ZRDLLV3P;
 						ProvisioningStyle = Automatic;
 					};
 					75179D0F1F5DEDA100F771EE = {
@@ -328,7 +354,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32C89A501F5F310000DC0E63 /* NextData2InterfaceController.swift in Sources */,
 				75179D271F5DEDA200F771EE /* ExtensionDelegate.swift in Sources */,
+				32C89A4E1F5F2C4300DC0E63 /* DataInterfaceInterfaceController.swift in Sources */,
 				75F572EB1F5F13FF00C9558C /* MapController.swift in Sources */,
 				75179D251F5DEDA200F771EE /* InterfaceController.swift in Sources */,
 				1490FF8B1F5F15EE00CF517B /* InterfaceVideo.swift in Sources */,
@@ -543,6 +571,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 69ZRDLLV3P;
 				INFOPLIST_FILE = WatchKitApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.jaum.WatchKitApp;
@@ -555,6 +584,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 69ZRDLLV3P;
 				INFOPLIST_FILE = WatchKitApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.jaum.WatchKitApp;
