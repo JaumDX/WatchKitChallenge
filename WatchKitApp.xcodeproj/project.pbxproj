@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32C89A471F5EE44D00DC0E63 /* DataInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C89A461F5EE44D00DC0E63 /* DataInterfaceController.swift */; };
+		32C89A491F5EE45E00DC0E63 /* NextDataInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C89A481F5EE45E00DC0E63 /* NextDataInterfaceController.swift */; };
 		75179D021F5DEDA100F771EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75179D011F5DEDA100F771EE /* AppDelegate.swift */; };
 		75179D041F5DEDA100F771EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75179D031F5DEDA100F771EE /* ViewController.swift */; };
 		75179D071F5DEDA100F771EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75179D051F5DEDA100F771EE /* Main.storyboard */; };
@@ -67,6 +69,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		32C89A461F5EE44D00DC0E63 /* DataInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataInterfaceController.swift; sourceTree = "<group>"; };
+		32C89A481F5EE45E00DC0E63 /* NextDataInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextDataInterfaceController.swift; sourceTree = "<group>"; };
 		75179CFE1F5DEDA100F771EE /* WatchKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75179D011F5DEDA100F771EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75179D031F5DEDA100F771EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +110,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32C89A4A1F5EE46C00DC0E63 /* DataStoryboard controllers */ = {
+			isa = PBXGroup;
+			children = (
+				32C89A461F5EE44D00DC0E63 /* DataInterfaceController.swift */,
+				32C89A481F5EE45E00DC0E63 /* NextDataInterfaceController.swift */,
+			);
+			name = "DataStoryboard controllers";
+			path = "../WatchKitApp WatchKit App";
+			sourceTree = "<group>";
+		};
 		75179CF51F5DEDA100F771EE = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +169,7 @@
 		75179D231F5DEDA200F771EE /* WatchKitApp WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				32C89A4A1F5EE46C00DC0E63 /* DataStoryboard controllers */,
 				75179D241F5DEDA200F771EE /* InterfaceController.swift */,
 				75179D261F5DEDA200F771EE /* ExtensionDelegate.swift */,
 				75179D281F5DEDA200F771EE /* Assets.xcassets */,
@@ -231,6 +246,7 @@
 				TargetAttributes = {
 					75179CFD1F5DEDA100F771EE = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 69ZRDLLV3P;
 						ProvisioningStyle = Automatic;
 					};
 					75179D0F1F5DEDA100F771EE = {
@@ -303,6 +319,8 @@
 			files = (
 				75179D041F5DEDA100F771EE /* ViewController.swift in Sources */,
 				75179D021F5DEDA100F771EE /* AppDelegate.swift in Sources */,
+				32C89A491F5EE45E00DC0E63 /* NextDataInterfaceController.swift in Sources */,
+				32C89A471F5EE44D00DC0E63 /* DataInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +541,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 69ZRDLLV3P;
 				INFOPLIST_FILE = WatchKitApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.jaum.WatchKitApp;
@@ -535,6 +554,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 69ZRDLLV3P;
 				INFOPLIST_FILE = WatchKitApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.jaum.WatchKitApp;

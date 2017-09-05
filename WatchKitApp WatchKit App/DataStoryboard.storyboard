@@ -1,8 +1,51 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11055"/>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="12029"/>
     </dependencies>
-    <scenes/>
+    <scenes>
+        <!--Data Interface Conroller-->
+        <scene sceneID="hsS-OX-Vf0">
+            <objects>
+                <controller id="LdX-Vo-s13" customClass="DataInterfaceConroller" customModule="WatchKitApp">
+                    <items>
+                        <slider width="1" alignment="left" value="1" maximum="3" steps="3" id="W36-V7-LcP"/>
+                        <picker width="135" height="75" alignment="left" style="sequence" id="HB0-7W-Tno"/>
+                        <button width="1" alignment="left" title="Button" id="uTQ-Jc-sjF">
+                            <connections>
+                                <action selector="goToNextDataInterface" destination="LdX-Vo-s13" id="CGX-vg-9JJ"/>
+                                <segue destination="zme-6O-VWq" kind="push" id="gni-9v-tbL"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="slider" destination="W36-V7-LcP" id="RnV-SV-QcZ"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="104" y="-198"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="WvY-m3-6Lt">
+            <objects>
+                <controller id="zme-6O-VWq">
+                    <items>
+                        <slider width="1" alignment="left" value="1" maximum="3" steps="3" id="wLZ-fv-Nqj"/>
+                        <label width="135" height="54" alignment="left" text="Label" id="KcV-wS-xeY"/>
+                        <button width="134" height="48" alignment="left" title="Button" id="vW3-YV-WrL">
+                            <connections>
+                                <segue destination="LdX-Vo-s13" kind="push" id="ecL-vR-iPD"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="418" y="-500"/>
+        </scene>
+    </scenes>
 </document>
