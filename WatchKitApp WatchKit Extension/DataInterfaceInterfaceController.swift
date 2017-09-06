@@ -12,13 +12,8 @@ import Foundation
 
 class DataInterfaceInterfaceController: WKInterfaceController {
     
-    @IBOutlet var labelDate: WKInterfaceLabel!
-    var dateString: String = "Year: 0"
-    
     override func awake(withContext context: Any?) {
-        super.awake(withContext: context)
-        labelDate.setText(dateString)
-        
+        super.awake(withContext: context)        
         // Configure interface objects here.
     }
     
@@ -32,14 +27,9 @@ class DataInterfaceInterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
     
-    @IBAction func sliderNumber(_ value: Float) {
-        dateString = "Year: \(value)"
-        labelDate.setText(dateString)
-    }
-    
     override func contextForSegue(withIdentifier segueIdentifier: String) -> Any? {
-        if segueIdentifier == "SegueNextDateInterfaceController" {
-            return dateString
+        if segueIdentifier == "segueMoreInfo" {
+            return " O Apple Developer Academy é um lugar que você pode dar vida para suas ideias e aprender na prática a como estar preparado para o mercado de trabalho. Um projeto composto por estudantes e professores que visa o aprendizado técnico, mas principalmente trazer experiência para o desenvolvedor e designer como profissionais. Um lugar onde todos compartilham o que mais gostam de fazer e assim, crescem juntos a cada dia. O espaço que você pode sair da sua zona de conforto e se preparar ainda mais para o futuro. "
         }else{
             return nil
         }

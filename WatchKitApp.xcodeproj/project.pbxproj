@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1490FF8B1F5F15EE00CF517B /* InterfaceVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1490FF8A1F5F15EE00CF517B /* InterfaceVideo.swift */; };
 		1490FF8D1F5F15FF00CF517B /* movieclip.mov in Resources */ = {isa = PBXBuildFile; fileRef = 1490FF8C1F5F15FF00CF517B /* movieclip.mov */; };
+		3257AD271F5F70D00010FEBE /* AppleDeveloperAcademy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3257AD261F5F70D00010FEBE /* AppleDeveloperAcademy.jpg */; };
+		3257AD291F5F72BA0010FEBE /* MoreInfoInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3257AD281F5F72BA0010FEBE /* MoreInfoInterfaceController.swift */; };
 		75179D021F5DEDA100F771EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75179D011F5DEDA100F771EE /* AppDelegate.swift */; };
 		75179D041F5DEDA100F771EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75179D031F5DEDA100F771EE /* ViewController.swift */; };
 		75179D071F5DEDA100F771EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75179D051F5DEDA100F771EE /* Main.storyboard */; };
@@ -26,7 +28,6 @@
 		75F572EB1F5F13FF00C9558C /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F572EA1F5F13FF00C9558C /* MapController.swift */; };
 		75F572EF1F5F3D5F00C9558C /* DataStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F572EE1F5F3D5F00C9558C /* DataStoryboard.storyboard */; };
 		75F572F31F5F3D9700C9558C /* DataInterfaceInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F572F11F5F3D9700C9558C /* DataInterfaceInterfaceController.swift */; };
-		75F572F41F5F3D9700C9558C /* NextData2InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F572F21F5F3D9700C9558C /* NextData2InterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,8 @@
 /* Begin PBXFileReference section */
 		1490FF8A1F5F15EE00CF517B /* InterfaceVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceVideo.swift; sourceTree = "<group>"; };
 		1490FF8C1F5F15FF00CF517B /* movieclip.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = movieclip.mov; sourceTree = "<group>"; };
+		3257AD261F5F70D00010FEBE /* AppleDeveloperAcademy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = AppleDeveloperAcademy.jpg; path = "WatchKitApp WatchKit Extension/AppleDeveloperAcademy.jpg"; sourceTree = SOURCE_ROOT; };
+		3257AD281F5F72BA0010FEBE /* MoreInfoInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreInfoInterfaceController.swift; sourceTree = "<group>"; };
 		75179CFE1F5DEDA100F771EE /* WatchKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75179D011F5DEDA100F771EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75179D031F5DEDA100F771EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,7 +98,6 @@
 		75F572EA1F5F13FF00C9558C /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 		75F572EE1F5F3D5F00C9558C /* DataStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DataStoryboard.storyboard; sourceTree = "<group>"; };
 		75F572F11F5F3D9700C9558C /* DataInterfaceInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataInterfaceInterfaceController.swift; sourceTree = "<group>"; };
-		75F572F21F5F3D9700C9558C /* NextData2InterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextData2InterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				75179D031F5DEDA100F771EE /* ViewController.swift */,
 				75179D051F5DEDA100F771EE /* Main.storyboard */,
 				75179D081F5DEDA100F771EE /* Assets.xcassets */,
+				3257AD261F5F70D00010FEBE /* AppleDeveloperAcademy.jpg */,
 				75179D0A1F5DEDA100F771EE /* LaunchScreen.storyboard */,
 				75179D0D1F5DEDA100F771EE /* Info.plist */,
 			);
@@ -189,7 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				75F572F11F5F3D9700C9558C /* DataInterfaceInterfaceController.swift */,
-				75F572F21F5F3D9700C9558C /* NextData2InterfaceController.swift */,
+				3257AD281F5F72BA0010FEBE /* MoreInfoInterfaceController.swift */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -262,14 +265,17 @@
 				TargetAttributes = {
 					75179CFD1F5DEDA100F771EE = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 69ZRDLLV3P;
 						ProvisioningStyle = Automatic;
 					};
 					75179D0F1F5DEDA100F771EE = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 69ZRDLLV3P;
 						ProvisioningStyle = Automatic;
 					};
 					75179D1E1F5DEDA200F771EE = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 69ZRDLLV3P;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -322,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75179D291F5DEDA200F771EE /* Assets.xcassets in Resources */,
+				3257AD271F5F70D00010FEBE /* AppleDeveloperAcademy.jpg in Resources */,
 				1490FF8D1F5F15FF00CF517B /* movieclip.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,8 +350,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				75179D271F5DEDA200F771EE /* ExtensionDelegate.swift in Sources */,
-				75F572F41F5F3D9700C9558C /* NextData2InterfaceController.swift in Sources */,
 				75F572EB1F5F13FF00C9558C /* MapController.swift in Sources */,
+				3257AD291F5F72BA0010FEBE /* MoreInfoInterfaceController.swift in Sources */,
 				75179D251F5DEDA200F771EE /* InterfaceController.swift in Sources */,
 				75F572F31F5F3D9700C9558C /* DataInterfaceInterfaceController.swift in Sources */,
 				1490FF8B1F5F15EE00CF517B /* InterfaceVideo.swift in Sources */,
@@ -493,6 +500,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 69ZRDLLV3P;
 				INFOPLIST_FILE = "WatchKitApp WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.jaum.WatchKitApp.watchkitapp.watchkitextension;
@@ -509,6 +517,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 69ZRDLLV3P;
 				INFOPLIST_FILE = "WatchKitApp WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.jaum.WatchKitApp.watchkitapp.watchkitextension;
@@ -526,6 +535,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 69ZRDLLV3P;
 				IBSC_MODULE = WatchKitApp_WatchKit_Extension;
 				INFOPLIST_FILE = "WatchKitApp WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.jaum.WatchKitApp.watchkitapp;
@@ -543,6 +553,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 69ZRDLLV3P;
 				IBSC_MODULE = WatchKitApp_WatchKit_Extension;
 				INFOPLIST_FILE = "WatchKitApp WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.jaum.WatchKitApp.watchkitapp;
@@ -559,6 +570,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 69ZRDLLV3P;
 				INFOPLIST_FILE = WatchKitApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.jaum.WatchKitApp;
@@ -571,6 +583,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 69ZRDLLV3P;
 				INFOPLIST_FILE = WatchKitApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.jaum.WatchKitApp;
