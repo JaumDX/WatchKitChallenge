@@ -22,7 +22,7 @@ class MapController: WKInterfaceController {
         super.awake(withContext: context)
         
         
-        let mapLocation = CLLocationCoordinate2D(latitude: 40.785091, longitude: -73.968285)
+        let mapLocation = CLLocationCoordinate2D(latitude: -15.864355, longitude: -48.031384)
         
         let coordinateSpan = MKCoordinateSpan(latitudeDelta: 1, longitudeDelta: 1)
         
