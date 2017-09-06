@@ -10,7 +10,7 @@ import WatchKit
 import Foundation
 import CoreLocation
 
-class MapController: WKInterfaceController, CLLocationManagerDelegate {
+class MapController: WKInterfaceController {
     
     
     @IBOutlet var myMap: WKInterfaceMap!
@@ -22,23 +22,7 @@ class MapController: WKInterfaceController, CLLocationManagerDelegate {
         super.awake(withContext: context)
         
         
-        locationManager.requestWhenInUseAuthorization()
-        locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        locationManager.delegate = self
-        locationManager.requestLocation()
-        
-        // Configure interface objects here.
-    }
-    
-    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        
-        
-        let currentLocation = locations[0]
-        let lat = currentLocation.coordinate.latitude
-        let long = currentLocation.coordinate.longitude
-        
-        
-        let mapLocation = CLLocationCoordinate2D(latitude: lat, longitude: long)
+        let mapLocation = CLLocationCoordinate2D(latitude: 40.785091, longitude: -73.968285)
         
         let coordinateSpan = MKCoordinateSpan(latitudeDelta: 1, longitudeDelta: 1)
         
@@ -47,12 +31,10 @@ class MapController: WKInterfaceController, CLLocationManagerDelegate {
         myMap.setRegion(region)
         myMap.addAnnotation(mapLocation, with: WKInterfaceMapPinColor.purple)
         
-        
+        // Configure interface objects here.
     }
     
-    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
-        print(error.localizedDescription)
-    }
+    
     
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
