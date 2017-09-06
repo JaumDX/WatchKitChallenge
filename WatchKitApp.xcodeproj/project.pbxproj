@@ -11,6 +11,7 @@
 		1490FF8D1F5F15FF00CF517B /* movieclip.mov in Resources */ = {isa = PBXBuildFile; fileRef = 1490FF8C1F5F15FF00CF517B /* movieclip.mov */; };
 		3257AD271F5F70D00010FEBE /* AppleDeveloperAcademy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3257AD261F5F70D00010FEBE /* AppleDeveloperAcademy.jpg */; };
 		3257AD291F5F72BA0010FEBE /* MoreInfoInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3257AD281F5F72BA0010FEBE /* MoreInfoInterfaceController.swift */; };
+		3257AD2B1F605D270010FEBE /* PhotoInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3257AD2A1F605D270010FEBE /* PhotoInterfaceController.swift */; };
 		75179D021F5DEDA100F771EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75179D011F5DEDA100F771EE /* AppDelegate.swift */; };
 		75179D041F5DEDA100F771EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75179D031F5DEDA100F771EE /* ViewController.swift */; };
 		75179D071F5DEDA100F771EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75179D051F5DEDA100F771EE /* Main.storyboard */; };
@@ -77,6 +78,7 @@
 		1490FF8C1F5F15FF00CF517B /* movieclip.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = movieclip.mov; sourceTree = "<group>"; };
 		3257AD261F5F70D00010FEBE /* AppleDeveloperAcademy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = AppleDeveloperAcademy.jpg; path = "WatchKitApp WatchKit Extension/AppleDeveloperAcademy.jpg"; sourceTree = SOURCE_ROOT; };
 		3257AD281F5F72BA0010FEBE /* MoreInfoInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreInfoInterfaceController.swift; sourceTree = "<group>"; };
+		3257AD2A1F605D270010FEBE /* PhotoInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoInterfaceController.swift; sourceTree = "<group>"; };
 		75179CFE1F5DEDA100F771EE /* WatchKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75179D011F5DEDA100F771EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75179D031F5DEDA100F771EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -154,7 +156,6 @@
 				75179D031F5DEDA100F771EE /* ViewController.swift */,
 				75179D051F5DEDA100F771EE /* Main.storyboard */,
 				75179D081F5DEDA100F771EE /* Assets.xcassets */,
-				3257AD261F5F70D00010FEBE /* AppleDeveloperAcademy.jpg */,
 				75179D0A1F5DEDA100F771EE /* LaunchScreen.storyboard */,
 				75179D0D1F5DEDA100F771EE /* Info.plist */,
 			);
@@ -182,6 +183,7 @@
 				75179D241F5DEDA200F771EE /* InterfaceController.swift */,
 				75179D261F5DEDA200F771EE /* ExtensionDelegate.swift */,
 				75179D281F5DEDA200F771EE /* Assets.xcassets */,
+				3257AD261F5F70D00010FEBE /* AppleDeveloperAcademy.jpg */,
 				75179D2A1F5DEDA200F771EE /* Info.plist */,
 				75F572EA1F5F13FF00C9558C /* MapController.swift */,
 			);
@@ -193,6 +195,7 @@
 			children = (
 				75F572F11F5F3D9700C9558C /* DataInterfaceInterfaceController.swift */,
 				3257AD281F5F72BA0010FEBE /* MoreInfoInterfaceController.swift */,
+				3257AD2A1F605D270010FEBE /* PhotoInterfaceController.swift */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 				75179D251F5DEDA200F771EE /* InterfaceController.swift in Sources */,
 				75F572F31F5F3D9700C9558C /* DataInterfaceInterfaceController.swift in Sources */,
 				1490FF8B1F5F15EE00CF517B /* InterfaceVideo.swift in Sources */,
+				3257AD2B1F605D270010FEBE /* PhotoInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

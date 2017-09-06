@@ -61,14 +61,13 @@
         <!--nextDataStoryboard-->
         <scene sceneID="WvY-m3-6Lt">
             <objects>
-                <controller identifier="nextDataStoryboard" id="zme-6O-VWq">
+                <controller identifier="nextDataStoryboard" id="zme-6O-VWq" customClass="PhotoInterfaceController" customModule="WatchKitApp_WatchKit_Extension">
                     <items>
-                        <group width="1" alignment="left" contentMode="scaleAspectFit" layout="vertical" id="fPK-Qe-kdb">
-                            <items>
-                                <imageView width="1" alignment="left" image="AppleDeveloperAcademy" id="q4p-Gr-Lxm"/>
-                            </items>
-                        </group>
+                        <imageView width="1" height="1" alignment="left" image="AppleDeveloperAcademy" contentMode="scaleAspectFit" id="q4p-Gr-Lxm"/>
                     </items>
+                    <connections>
+                        <outlet property="imageSpace" destination="q4p-Gr-Lxm" id="dKM-3U-Wp4"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="418" y="-499"/>
