@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1490FF8B1F5F15EE00CF517B /* InterfaceVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1490FF8A1F5F15EE00CF517B /* InterfaceVideo.swift */; };
-		1490FF8D1F5F15FF00CF517B /* movieclip.mov in Resources */ = {isa = PBXBuildFile; fileRef = 1490FF8C1F5F15FF00CF517B /* movieclip.mov */; };
+		14F5387A1F6064A700AB1FED /* Bepid.mov in Resources */ = {isa = PBXBuildFile; fileRef = 14F538791F6064A700AB1FED /* Bepid.mov */; };
 		3257AD271F5F70D00010FEBE /* AppleDeveloperAcademy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3257AD261F5F70D00010FEBE /* AppleDeveloperAcademy.jpg */; };
 		3257AD291F5F72BA0010FEBE /* MoreInfoInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3257AD281F5F72BA0010FEBE /* MoreInfoInterfaceController.swift */; };
 		3257AD2B1F605D270010FEBE /* PhotoInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3257AD2A1F605D270010FEBE /* PhotoInterfaceController.swift */; };
@@ -75,7 +75,7 @@
 
 /* Begin PBXFileReference section */
 		1490FF8A1F5F15EE00CF517B /* InterfaceVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceVideo.swift; sourceTree = "<group>"; };
-		1490FF8C1F5F15FF00CF517B /* movieclip.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = movieclip.mov; sourceTree = "<group>"; };
+		14F538791F6064A700AB1FED /* Bepid.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Bepid.mov; sourceTree = "<group>"; };
 		3257AD261F5F70D00010FEBE /* AppleDeveloperAcademy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = AppleDeveloperAcademy.jpg; path = "WatchKitApp WatchKit Extension/AppleDeveloperAcademy.jpg"; sourceTree = SOURCE_ROOT; };
 		3257AD281F5F72BA0010FEBE /* MoreInfoInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreInfoInterfaceController.swift; sourceTree = "<group>"; };
 		3257AD2A1F605D270010FEBE /* PhotoInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoInterfaceController.swift; sourceTree = "<group>"; };
@@ -123,7 +123,7 @@
 		1490FF891F5F15AE00CF517B /* Video */ = {
 			isa = PBXGroup;
 			children = (
-				1490FF8C1F5F15FF00CF517B /* movieclip.mov */,
+				14F538791F6064A700AB1FED /* Bepid.mov */,
 				1490FF8A1F5F15EE00CF517B /* InterfaceVideo.swift */,
 			);
 			name = Video;
@@ -331,8 +331,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				75179D291F5DEDA200F771EE /* Assets.xcassets in Resources */,
+				14F5387A1F6064A700AB1FED /* Bepid.mov in Resources */,
 				3257AD271F5F70D00010FEBE /* AppleDeveloperAcademy.jpg in Resources */,
-				1490FF8D1F5F15FF00CF517B /* movieclip.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

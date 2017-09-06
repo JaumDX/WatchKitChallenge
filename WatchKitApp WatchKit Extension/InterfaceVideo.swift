@@ -17,7 +17,7 @@ class InterfaceVideo: WKInterfaceController {
         super.awake(withContext: context)
         
         let myBundle = Bundle.main
-        if let movieURL = myBundle.url(forResource: "movieclip", withExtension: "mov") {
+        if let movieURL = myBundle.url(forResource: "Bepid", withExtension: "mov") {
             self.movie.setMovieURL(movieURL)
         }
         

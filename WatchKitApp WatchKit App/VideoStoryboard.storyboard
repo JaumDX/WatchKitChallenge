@@ -14,7 +14,7 @@
             <objects>
                 <controller identifier="VideoStoryboard" id="s3d-kE-aE1" customClass="InterfaceVideo" customModule="WatchKitApp_WatchKit_Extension">
                     <items>
-                        <movie width="1" height="100" alignment="center" verticalAlignment="center" posterImage="movie_poster" id="DUY-mY-lg9"/>
+                        <movie width="136" height="209" alignment="center" verticalAlignment="center" id="DUY-mY-lg9"/>
                     </items>
                     <connections>
                         <outlet property="movie" destination="DUY-mY-lg9" id="dzM-Tj-4GB"/>
