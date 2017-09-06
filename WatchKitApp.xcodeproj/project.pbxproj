@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1490FF8B1F5F15EE00CF517B /* InterfaceVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1490FF8A1F5F15EE00CF517B /* InterfaceVideo.swift */; };
-		1490FF8D1F5F15FF00CF517B /* movieclip.mov in Resources */ = {isa = PBXBuildFile; fileRef = 1490FF8C1F5F15FF00CF517B /* movieclip.mov */; };
+		149BD9081F5F7AA100C97F3B /* BEPID.mov in Resources */ = {isa = PBXBuildFile; fileRef = 149BD9071F5F7AA100C97F3B /* BEPID.mov */; };
 		3257AD271F5F70D00010FEBE /* AppleDeveloperAcademy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3257AD261F5F70D00010FEBE /* AppleDeveloperAcademy.jpg */; };
 		3257AD291F5F72BA0010FEBE /* MoreInfoInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3257AD281F5F72BA0010FEBE /* MoreInfoInterfaceController.swift */; };
 		75179D021F5DEDA100F771EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75179D011F5DEDA100F771EE /* AppDelegate.swift */; };
@@ -74,7 +74,7 @@
 
 /* Begin PBXFileReference section */
 		1490FF8A1F5F15EE00CF517B /* InterfaceVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceVideo.swift; sourceTree = "<group>"; };
-		1490FF8C1F5F15FF00CF517B /* movieclip.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = movieclip.mov; sourceTree = "<group>"; };
+		149BD9071F5F7AA100C97F3B /* BEPID.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = BEPID.mov; sourceTree = "<group>"; };
 		3257AD261F5F70D00010FEBE /* AppleDeveloperAcademy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = AppleDeveloperAcademy.jpg; path = "WatchKitApp WatchKit Extension/AppleDeveloperAcademy.jpg"; sourceTree = SOURCE_ROOT; };
 		3257AD281F5F72BA0010FEBE /* MoreInfoInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreInfoInterfaceController.swift; sourceTree = "<group>"; };
 		75179CFE1F5DEDA100F771EE /* WatchKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,7 +121,7 @@
 		1490FF891F5F15AE00CF517B /* Video */ = {
 			isa = PBXGroup;
 			children = (
-				1490FF8C1F5F15FF00CF517B /* movieclip.mov */,
+				149BD9071F5F7AA100C97F3B /* BEPID.mov */,
 				1490FF8A1F5F15EE00CF517B /* InterfaceVideo.swift */,
 			);
 			name = Video;
@@ -328,8 +328,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				75179D291F5DEDA200F771EE /* Assets.xcassets in Resources */,
+				149BD9081F5F7AA100C97F3B /* BEPID.mov in Resources */,
 				3257AD271F5F70D00010FEBE /* AppleDeveloperAcademy.jpg in Resources */,
-				1490FF8D1F5F15FF00CF517B /* movieclip.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
