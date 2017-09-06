@@ -26,7 +26,7 @@
                                         <segue destination="Wzf-xz-vrW" kind="push" id="qEP-fa-izp"/>
                                     </connections>
                                 </button>
-                                <button width="1" alignment="left" title="Dados" id="pN6-FP-0CF">
+                                <button width="1" alignment="left" title="Info" id="pN6-FP-0CF">
                                     <connections>
                                         <segue destination="d7s-kZ-GOX" kind="push" id="Fmh-A3-i3e"/>
                                     </connections>

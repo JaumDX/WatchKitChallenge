@@ -14,15 +14,22 @@
             <objects>
                 <controller identifier="DataStoryboard" id="LdX-Vo-s13" customClass="DataInterfaceInterfaceController" customModule="WatchKitApp_WatchKit_Extension">
                     <items>
-                        <slider width="1" alignment="left" value="1" maximum="20" steps="20" id="W36-V7-LcP">
+                        <group width="1" alignment="left" layout="vertical" id="ZIN-tb-Uki">
+                            <items>
+                                <label width="1" alignment="left" text="THE BEST PLACE" textAlignment="center" numberOfLines="0" id="CRD-P3-ef1">
+                                    <fontDescription key="font" type="system" pointSize="15"/>
+                                </label>
+                                <separator alignment="left" id="AN6-pd-MSB"/>
+                                <button width="1" alignment="left" title="Photo" id="uTQ-Jc-sjF">
+                                    <connections>
+                                        <segue destination="zme-6O-VWq" kind="push" identifier="SegueNextDateInterfaceController" id="mx0-6P-1li"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <button width="1" alignment="left" title="More info" id="kQy-0Y-2hv">
                             <connections>
-                                <action selector="sliderNumber:" destination="LdX-Vo-s13" id="cFJ-bC-P0m"/>
-                            </connections>
-                        </slider>
-                        <label width="136" height="53" alignment="left" text="Label" textAlignment="center" id="CRD-P3-ef1"/>
-                        <button width="1" alignment="left" title="Button" id="uTQ-Jc-sjF">
-                            <connections>
-                                <segue destination="zme-6O-VWq" kind="push" identifier="SegueNextDateInterfaceController" id="mx0-6P-1li"/>
+                                <segue destination="88K-B8-6vd" kind="push" identifier="segueMoreInfo" id="ZD7-Vv-zXs"/>
                             </connections>
                         </button>
                     </items>
@@ -33,23 +40,35 @@
             </objects>
             <point key="canvasLocation" x="104" y="-198"/>
         </scene>
+        <!--More Info Interface Controller-->
+        <scene sceneID="6dz-QI-5U2">
+            <objects>
+                <controller id="88K-B8-6vd" customClass="MoreInfoInterfaceController" customModule="WatchKitApp_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" id="2a5-HD-oEf">
+                            <items>
+                                <label width="1" alignment="left" textAlignment="center" numberOfLines="0" id="MlT-70-NM3"/>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="textLabel" destination="MlT-70-NM3" id="GOY-lv-TEs"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="415" y="172"/>
+        </scene>
         <!--nextDataStoryboard-->
         <scene sceneID="WvY-m3-6Lt">
             <objects>
-                <controller identifier="nextDataStoryboard" id="zme-6O-VWq" customClass="NextData2InterfaceController" customModule="WatchKitApp_WatchKit_Extension">
+                <controller identifier="nextDataStoryboard" id="zme-6O-VWq">
                     <items>
-                        <slider width="1" alignment="left" value="1" maximum="20" steps="20" id="wLZ-fv-Nqj">
-                            <connections>
-                                <action selector="sliderDay:" destination="zme-6O-VWq" id="OMh-l0-Kzl"/>
-                            </connections>
-                        </slider>
-                        <label width="135" height="106" alignment="left" text="Label" textAlignment="center" id="KcV-wS-xeY">
-                            <fontDescription key="font" type="system" pointSize="10"/>
-                        </label>
+                        <group width="1" alignment="left" contentMode="scaleAspectFit" layout="vertical" id="fPK-Qe-kdb">
+                            <items>
+                                <imageView width="1" alignment="left" image="AppleDeveloperAcademy" id="q4p-Gr-Lxm"/>
+                            </items>
+                        </group>
                     </items>
-                    <connections>
-                        <outlet property="dayLabel" destination="KcV-wS-xeY" id="2Nj-p5-Skc"/>
-                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="418" y="-499"/>
